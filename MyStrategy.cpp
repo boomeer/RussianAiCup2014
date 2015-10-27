@@ -7,9 +7,6 @@
 #include <limits>
 #include <map>
 
-//#define PRINT_LOG
-//#define CHECK_PREDICTION
-
 #include <iostream>  // DEBUG
 #include <iomanip>  // DEBUG
 
