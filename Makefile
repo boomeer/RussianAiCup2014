@@ -12,5 +12,8 @@ sweep: utils/sweep.cpp
 
 opt: opt/MyStrategy opt/opt
 
+opt/MyStrategy: MyStrategy.cpp
+	g++ -std=c++11 -DONLINE_JUDGE -D_LINUX -DOPTIMIZING -march=native -Ofast -o opt/MyStrategy `./file-list.sh`
+
 opt/opt: opt/opt.cpp
 	g++ opt/opt.cpp -g -O0 -Wall -o opt/opt
