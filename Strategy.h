@@ -10,7 +10,7 @@
 class Strategy {
 public:
     virtual void move(const model::Hockeyist& self, const model::World& world, const model::Game& game, model::Move& move) = 0;
-
+    //destr
     virtual ~Strategy();
 };
 
